@@ -1,0 +1,215 @@
+\documentclass{article}
+\usepackage{booktabs,chemformula}
+\usepackage{sectsty}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{multicol}
+\usepackage{makecell}
+\parindent=0pt
+\usepackage[            
+left=0.3cm,
+right=0.3cm,
+top=0.3cm,
+bottom=0.3cm
+]{geometry}
+\renewcommand{\arraystretch}{0.5}
+	
+\usepackage{color, colortbl}	
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+
+\title{ Common shortcuts for different tools use to dev}
+\author{ Ruc }
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\newpage
+\begin{landscape}
+    \begin{multicols*}{3}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{.code - basic editing  }} \\
+            \hline
+            Ctrl + P                 & Quick Open                \\
+            \rowcolor{LightCyan}
+            Ctrl + Shift + N         & New Window/instance       \\
+            Ctrl + W                 & Close window/instance     \\
+            \rowcolor{LightCyan}
+            Ctrl+X                   & Cut line (es)             \\
+            Ctrl+C                   & Copy line (es)            \\
+            \rowcolor{LightCyan}
+            Alt+ ↓ / ↑               & Move line down/up         \\
+            Ctrl + Shift + K         & Delete line               \\
+            \rowcolor{LightCyan}
+            Ctrl+Shift+Alt+M         & Copy line down            \\
+            Ctrl+Enter               & Insert line above         \\
+            \rowcolor{LightCyan}
+            Ctrl+Shift+Enter         & Insert line below         \\
+            Ctrl+Shift+ $\backslash$ & Jump to match bracket     \\
+            \rowcolor{LightCyan}
+            Home / End               & Go to start/end of line   \\
+            Ctrl+ Home / End         & Go to star/end of file    \\
+            \rowcolor{LightCyan}
+            Ctrl+Shift+V             & Open Markdown preview     \\
+            Ctrl+J                   & Fold/Unfold all regions   \\
+            \rowcolor{LightCyan}
+            Ctrl+K Ctrl+S            & Keyboard Shortcuts        \\
+            Ctrl + D                 & Select word               \\
+            \rowcolor{LightCyan}
+            Ctrl + E + Enter         & Select file to edit       \\
+            Ctrl + Shift + '         & open new terminal
+        \end{tabular}
+        \vspace{5pt}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{.code - multicursor and selection }} \\
+            \hline
+            Alt+Click        & Quick Open                                   \\
+            \rowcolor{LightCyan}
+            Shift+Alt+ ↑ / ↓ & New Window/instance                          \\
+            Ctrl+U           & Close window/instance                        \\
+            \rowcolor{LightCyan}
+            Shift + Alt + I  & Cut line (es)                                \\
+            Ctrl+L           & Copy line (es)                               \\
+            \rowcolor{LightCyan}
+            Ctrl+L           & Select line                                  \\
+            Ctrl+Shift+L     & Move line down/up                            \\
+            \rowcolor{LightCyan}
+            Ctrl+F2          & Delete line                                  \\
+            Shift+Alt + →/←  & Expand/Shrink selection                      \\
+            \rowcolor{LightCyan}
+            Ctrl+ →/←        & move to next/prev word
+        \end{tabular}
+        \vspace{5pt}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{.code - Display }       } \\                                         \\
+            \hline
+            Ctrl + b            & Toggle sidebar visibility      \\
+            \rowcolor{LightCyan}
+            Ctrl + Shift + e    & explore file                   \\
+            Ctrl + Shift + f    & search tab                     \\
+            \rowcolor{LightCyan}
+            Ctrl + Shift + G, G & open source control tab        \\
+            Ctrl+Shift+H        & Replace in files               \\
+            \rowcolor{LightCyan}
+            F3 / Shift + F3     & to find the next/previous      \\
+            Ctrl+Shift+C        & Open new command prompt        \\
+            \rowcolor{LightCyan}
+            Ctrl + G            & move to line                   \\
+            Ctrl+K Z            & Zen Mode (Esc Esc to exit)
+        \end{tabular}
+        \vspace{5pt}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{.code - Editor management  }} \\
+            \hline
+            Ctrl+W           & Close editor                          \\
+            \rowcolor{LightCyan}
+            Ctrl+K F         & explore file                          \\
+            Ctrl+Alt+M       & search tab                            \\
+            \rowcolor{LightCyan}
+            Ctrl+Alt+N       & open source control tab               \\
+            Ctrl+Shift+PgUp  & Replace in files                      \\
+            \rowcolor{LightCyan}
+            Ctrl+Shift+PgDn  & to find the next/previous             \\
+            Ctrl + K + Left  & focus edtitor group left              \\
+            \rowcolor{LightCyan}
+            Ctrl + K, Left   & mv edtitor group left                 \\
+            Ctrl + K + right & focus edtitor group right             \\
+            \rowcolor{LightCyan}
+            Ctrl + K, right  & mv edtitor group right
+        \end{tabular}
+        \vspace{5pt}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{.code - File management   } } \\
+            \hline
+            Ctrl+N         & Close editor                            \\
+            \rowcolor{LightCyan}
+            Ctrl+O         & explore file                            \\
+            Ctrl+K Ctrl+O  & Open Folder                             \\
+            \rowcolor{LightCyan}
+            Ctrl+Shift+T   & search tab                              \\
+            Ctrl+Tab       & open source control tab                 \\
+            \rowcolor{LightCyan}
+            Ctrl+Shift+Tab & Replace in files                        \\
+            Ctrl+K R       & to find the next/previous
+        \end{tabular}
+        \vspace{5pt}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{tmux - base control session}  } \\
+            \hline
+            tmux                    & open a session                   \\
+            \rowcolor{LightCyan}
+            tmux a                  & attach to session                \\
+            Ctrl+b, c               & Create a new window              \\
+            \rowcolor{LightCyan}
+            Ctrl + b , d            & detach from session tmux         \\
+            tmux detach             & detach from session tmux         \\
+            \rowcolor{LightCyan}
+            tmux ls                 & list the sessions attached       \\
+            \makecell{tmux attach -t                                   \\ +"sessionName"} & attach session of the name \\
+            \rowcolor{LightCyan}
+            tmux kill-session -t id & stop tmux session                \\
+            exit                    & shut down the session
+        \end{tabular}
+        \vspace{5pt}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{tmux - terminal manager }  } \\
+            \hline
+            Ctrl b , 'n'    & switch betweem cmd of window          \\
+            \rowcolor{LightCyan}
+            Ctrl + b , 'X'  & choose specific window                \\
+            Ctrl + b , ','  & rename window                         \\
+            \rowcolor{LightCyan}
+            Ctrl + b , 'w'  & display list of sessions              \\
+            Ctrl + b , '\&' & delete current window                 \\
+            \rowcolor{LightCyan}
+            Ctrl + b , ':'  & enter tmux cmd prompt
+        \end{tabular}
+        \vspace{5pt}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{tmux - split manager}  } \\
+            \hline
+            Ctrl + b , '\%'     & split vertical + new cmd      \\
+            \rowcolor{LightCyan}
+            Ctrl + b , 'o'      & switch between splitted cmd   \\
+            Ctrl + b , 'espace' & change visual display of cmds \\
+            \rowcolor{LightCyan}
+            Ctrl + b , '"'      & split horiz. + new cmd        \\
+            Ctrl + b , (arrows) & move from cmd to cmd          \\
+            \rowcolor{LightCyan}
+            Ctrl + b , '!'      & convert split to normal       \\
+            Ctrl + b , 'q'      & display numbers of terminal   \\
+            \rowcolor{LightCyan}
+            \makecell{Ctrl+b+:+                                 \\'join-pane -s 's\\' -t 't'} & merge
+        \end{tabular}
+        \vspace{5pt}
+        \begin{tabular}{m{3cm}m{5cm}}
+            \multicolumn{2}{l}{\textbf{chrome}  }                   \\
+            \hline
+            Alt + n             & Move to Tab \# n={1…8}            \\
+            \rowcolor{LightCyan}
+            Alt + 9             & Move to rightmost/last Tab        \\
+            Ctrl + ↓ / ↑        & Move to next/previous Tab         \\
+            \rowcolor{LightCyan}
+            Ctrl + w            & Close the current tab             \\
+            Ctrl + Shift + w    & Close the current window          \\
+            \rowcolor{LightCyan}
+            Ctrl + Shift + I    & Inspect (Developer)               \\
+            Ctrl + R            & Reload the page                   \\
+            \rowcolor{LightCyan}
+            Ctrl + t            & open a new tab                    \\
+            Ctrl + Shift + T    & Reopen last closed tab or window  \\
+            \rowcolor{LightCyan}
+            ALT + D             & Jump to the address bar           \\
+            Ctrl + k            & google search                     \\
+            \rowcolor{LightCyan}
+            Ctrl + Click a link & Open a link in new background tab \\
+            Ctrl + L            & Focus Address bar                 \\
+            \rowcolor{LightCyan}
+            Shift + Enter       & open url in a new window          \\
+            \makecell{search term +                                 \\ Alt + Enter} & \makecell{Open new tab + \\perform Google search}
+        \end{tabular}
+    \end{multicols*}
+\end{landscape}
+
+\end{document}
