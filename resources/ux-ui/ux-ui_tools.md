@@ -43,8 +43,16 @@
 <li><a href="https://ui8.net/ramonyv/products/ui-mix-ui-kit">wireframe kit xd v1</a></li>
 <li><a href="https://ui8.net/ramonyv/products/ui-mix-kit-20?status=6">wireframes kit figma</a></li>
 <li><a href="https://www.uplabs.com/posts/barber-shop-app">barber shop wireframe</a></li>
+</ul>
 
+<h2>Design UI ideas</h2>
+<ul>
+<li><a href="https://mobbin.com/features">design inspiration</a></li>
+</ul>
 
+<h2>UX Resources</h2>
+<ul>
+<li><a href="https://lawsofux.com/articles/2020/ux-psychology-google-search/">laws of UX</a></li>
 </ul>
 
 <h2>user flow</h2>
@@ -64,5 +72,27 @@
 <li><a href="https://wise.design/components">wise</a></li>
 </ul>
 
+<h2>Mockup tools </h2>
+<ul>
+<li><a href="https://previewed.app/">previewed.app</a></li>
+<li><a href="https://jitter.video">jitter.video</a></li>
+<li><a href="https://mockrocket.io/">mockrocket.io</a></li>
+<li><a href="https://www.mockupworld.co/">mockupworld.co</a></li>
+</ul>
+
+<h2>Design system </h2>
+<ul>
+<li><a href="https://www.designsystemsforfigma.com/">design system</a></li>
+<li><a href="https://www.spline.design/">3d design system</a></li>
+
+
+</ul>
+
+<h2>Marketing </h2>
+<ul>
+<li><a href="https://www.convertkit.com/">feature rich newsletter</a></li>
+<li><a href="https://www.voiceflow.com/">feature rich newsletter</a></li>
+
+</ul>
 
 
