@@ -55,6 +55,14 @@
 <li><a href="https://lawsofux.com/articles/2020/ux-psychology-google-search/">laws of UX</a></li>
 </ul>
 
+<h2>Figma course</h2>
+<ul>
+<li><a href="https://www.moonlearning.io/">Moon learning</a></li>
+<li><a href="https://uxdesign.cc/responsive-ui-design-with-figmas-variables-and-modes-2f97a36be6f7">Figma variables</a></li>
+<li><a href="https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma">Figma guide</a></li>
+<li><a href="https://medium.muz.li/figma-variables-complete-guideline-and-learning-documentation-9d5014a14c54">medium article</a></li>
+</ul>
+
 <h2>user flow</h2>
 <ul>
 <li><a href="https://www.behance.net/gallery/80146539/Flights-Booking-App-User-Flow">user flow booking flights</a></li>
