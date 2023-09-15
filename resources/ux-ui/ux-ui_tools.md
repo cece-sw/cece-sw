@@ -3,6 +3,7 @@
 <h2>Website</h2>
 <h3>complete website</h3>
 <ul>
+<li><a href="https://harboe.work/">DHNN*TM</a>
 <li><a href="https://dhnn.com/">DHNN*TM</a> - <a href="https://www.awwwards.com/sites/dhnntm">www.awwwards.com/dhnntm</a></li>
 <li><a href="https://crosswire.io/">crosswire.io</a> - <a href="https://www.awwwards.com/sites/crosswire">www.awwwards.com/crosswire</a></li>
 <li><a href="https://drivecapital.com/">drivecapital</a> - <a href="https://www.awwwards.com/sites/drive">www.awwwards.com/drive</a></li>
@@ -47,6 +48,9 @@
 
 <h2>Design UI ideas</h2>
 <ul>
+  
+<li><a href="https://www.trevornielsen.com/">design case ideas</a></li>
+<li><a href="https://sachinuix.com/#case-study">Complete case study</a></li>
 <li><a href="https://mobbin.com/features">design inspiration</a></li>
 </ul>
 
@@ -90,6 +94,8 @@
 
 <h2>Design system </h2>
 <ul>
+  
+<li><a href="https://www.decathlon.design/726f8c765/p/6669a2-design-insights--purposes">design system decat</a></li>
 <li><a href="https://www.designsystemsforfigma.com/">design system</a></li>
 <li><a href="https://www.spline.design/">3d design system</a></li>
 
